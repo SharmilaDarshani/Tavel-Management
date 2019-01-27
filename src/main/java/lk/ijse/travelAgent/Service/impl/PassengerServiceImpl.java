@@ -26,6 +26,7 @@ public class PassengerServiceImpl implements PassengerService {
                                             passengerDTO.getPassPhone(),
                                             passengerDTO.getPassPassPortNo());
         passengerRepository.save(passenger1);
+        System.out.println("save"); 
 
     }
 
