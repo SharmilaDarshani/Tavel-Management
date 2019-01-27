@@ -26,7 +26,9 @@ public class PassengerServiceImpl implements PassengerService {
                                             passengerDTO.getPassPhone(),
                                             passengerDTO.getPassPassPortNo());
         passengerRepository.save(passenger1);
-        System.out.println("save"); 
+        System.out.println("save");
+        
+        
 
     }
 
@@ -41,8 +43,10 @@ public class PassengerServiceImpl implements PassengerService {
                                         pase.getPassNic(),
                                         pase.getPassMobile(),
                                         pase.getPassPassPortNo()));
+            System.out.println("save");
         }
         return list;
+        
     }
 
     @Override
